@@ -23,8 +23,8 @@ class LINE:
   def __init__(self):
     self.Talk = Talk()
     self._session = requests.session() 
-#    self._headers = {'X-Line-Application': 'DESKTOPMAC 10.10.2-YOSEMITE-x64    MAC 4.5.0'} 
-    self._headers = {'X-Line-Application': 'CHROMEOS 8.2.1 NADYA-TJ x64'}    
+#    self._headers = {'X-Line-Application': 'CHROMEOS\t1.4.17\tChrome_OS\t1'} 
+    self._headers = {'X-Line-Application': 'CHROMEOS\t1.4.17\tChrome_OS\t1'}    
     
 
   def login(self, mail=None, passwd=None, cert=None, token=None, qr=False, callback=None):
@@ -49,7 +49,7 @@ class LINE:
 #              'X-Line-Application': 'CHROMEOS\t1.4.17\tChrome_OS\t1', 
               'X-Line-Application': 'CHROMEOS\t1.4.17\tChrome_OS\t1', 
               'X-Line-Access': self.authToken, 
-              'User-Agent': 'Line/8.2.1'
+              'User-Agent': 'Line/1.4.17'
    }
    
     self.Poll = Poll(self.authToken)
