@@ -12,37 +12,37 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 cl = LINETCR.LINE()
 #cl.login(qr=True)
-cl.login(token='TOKEN_KAMU_DISINI_BEIB')
+cl.login(token='EqWLiFgJAwUN3eQ8Vw38.yAM1ZO3J61gOwuemMdtLYa.8WEzeucCRWyNxIchnYSD2bi+TAURjF17NFHouJUEPts=')
 cl.loginResult()
 print "Cl-Login Success\n"
 
 ki = LINETCR.LINE()
 #ki.login(qr=True)
-ki.login(token='TOKEN_KAMU_DISINI_BEIB')
+ki.login(token='EqbJOg6l9HKUQi01zYS1.0nuFS/UsYwYTC6oT5M6u0q.gJ0DTUiaAUuv1t/K+C15XH91A/8hLyZ51QOnH4F/LP0=')
 ki.loginResult()
 print "Ki-Login Success\n"
 
 kk = LINETCR.LINE()
 #kk.login(qr=True)
-kk.login(token='TOKEN_KAMU_DISINI_BEIB')
+kk.login(token='Eq5MJDuBdeiP1qHBVbC0.ZNUI6x++aLWVF3KzlVxx8a.HPVYmhABVOky4GpymPw8Ec576L3OJboV2s7ltCThSsY=')
 kk.loginResult()
 print "Kk-Login Success\n"
 
 kc = LINETCR.LINE()
 #kc.login(qr=True)
-kc.login(token='TOKEN_KAMU_DISINI_BEIB')
+kc.login(token='EqCp6JikRiMMIjLoBl9a.n/D2uYrEfNuqG6bbPgbp/G.cgBHRVWuyAEdpEEIWdAboAR+gAhV5DZOlVxbVxw8Wss=')
 kc.loginResult()
 print "Kc-Login Success\n"
 
 kr = LINETCR.LINE()
 #kr.login(qr=True)
-kr.login(token='TOKEN_KAMU_DISINI_BEIB')
+kr.login(token='EqiO6gGt2zZE8bLgVjje.BtgskIPTkqlnkVidqtaJpG.o38ovvh9K1LjddnjWdn+XfwnMKpqhBit+DTMUHa/12g=')
 kr.loginResult()
 print "Kr-Login Success\n"
 
 km = LINETCR.LINE()
 #km.login(qr=True)
-km.login(token='TOKEN_KAMU_DISINI_BEIB')
+km.login(token='EqExgjPtC7TmzRO6Igb0.9T/PGPFdadrWbCl3Gzx/Ga.bewTJcW222ZleLUZXFT9pVFXt6WRqGReoR6YiHju2Kg=')
 km.loginResult()
 print "Km-Login Success\n\n=====[Sukses All Login]====="
 
@@ -178,7 +178,7 @@ groupMessage ="""
 ║    〽️ line.me/ti/p/~nad_nad. 〽️
 ╚═════════════════════════
 """
-tjia="u14f64e139a3817afaabe27d237afb36b"
+tjia="u9f09cfcb17d037e2936b751bd9d40ead"
 
 setMessage ="""
 ╔═════════════════════════
@@ -313,8 +313,8 @@ Cmid = kc.getProfile().mid
 Dmid = kr.getProfile().mid
 Emid = km.getProfile().mid
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid]
-Creator=["u14f64e139a3817afaabe27d237afb36b"]
-admin=["u14f64e139a3817afaabe27d237afb36b","u23ad5ddec0dd0523f9caffad673d693c","u8b2bb5214c1afc77d06901a535c23e30","u57a54b914085fea6f04c19f6fe589057","u94fb89525397a12a24df3642a7335fe7","u3a43893bf65289be03f9fd3a85dab2a7","u787d28e13bd4f94cdca5457cd90efaf4","u86304883a6fa105778bfdf13f467eaf0"]
+Creator=["u61a9b5ce8de3eb51a859410c9834e5c8"]
+admin=["u61a9b5ce8de3eb51a859410c9834e5c8","ud0d51fb3eb92c96cad73a3ade66e94d1","u37e77653245e16751083a041a4604ffa","uce7ba2e97fff025c2f7f79192ef5d7f0","uf6dfa98297c300347005c2f78195fe80","u9f09cfcb17d037e2936b751bd9d40ead"]
 
 contact = cl.getProfile()
 backup1 = cl.getProfile()
