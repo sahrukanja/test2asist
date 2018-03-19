@@ -20,10 +20,10 @@ class Talk:
   host = "gd2.line.naver.jp";
   port = 443;
 
-  UA = "Line/8.2.1"
-  LA = "CHROMEOS 8.2.1 NADYA-TJ x64"
-#  LA = "DESKTOPMAC 10.10.2-YOSEMITE-x64 MAC 4.5.1"
-#  LA = "CHROMEOS\t2.1.0\tChrome_OS\t1"
+  UA = "Line/1.4.17"
+  LA = "CHROMEOS\t1.4.17\tChrome_OS\t1"
+#  LA = "CHROMEOS\t1.4.17\tChrome_OS\t1"
+#  LA = "CHROMEOS\t1.4.17\tChrome_OS\t1"
 
   authToken = None
   cert = None
