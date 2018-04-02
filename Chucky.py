@@ -12,39 +12,22 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 cl = LINETCR.LINE()
 #cl.login(qr=True)
-cl.login(token='EqWLiFgJAwUN3eQ8Vw38.yAM1ZO3J61gOwuemMdtLYa.8WEzeucCRWyNxIchnYSD2bi+TAURjF17NFHouJUEPts=')
+cl.login(token='ErZKMincLPc2glcd8rXe.IKUNvTt9recbT1PQTceKJG.+kKO+UXs1yj0oOaihyHIuAPHTOx5u7zCM2Odljhnb14=')
 cl.loginResult()
 print "Cl-Login Success\n"
 
 ki = LINETCR.LINE()
 #ki.login(qr=True)
-ki.login(token='EqbJOg6l9HKUQi01zYS1.0nuFS/UsYwYTC6oT5M6u0q.gJ0DTUiaAUuv1t/K+C15XH91A/8hLyZ51QOnH4F/LP0=')
+ki.login(token='Er25pW3m2acv8eCiIGOd.UdOEshX6i9uwwi7Q0jFYRq.761g77tJ22kmFia0YzRBSGQanpvKYm07b91FMNt7iP8=')
 ki.loginResult()
 print "Ki-Login Success\n"
 
 kk = LINETCR.LINE()
 #kk.login(qr=True)
-kk.login(token='Eq5MJDuBdeiP1qHBVbC0.ZNUI6x++aLWVF3KzlVxx8a.HPVYmhABVOky4GpymPw8Ec576L3OJboV2s7ltCThSsY=')
+kk.login(token='Er6AEpCCbGxmnUnW9mMf.8xqyonc7QGpg4SKhcRUsVW.FAmnTe+BqM23m7rO+vFCFUNgc0oeBGYn7ZxaOEyeazw=')
 kk.loginResult()
 print "Kk-Login Success\n"
 
-kc = LINETCR.LINE()
-#kc.login(qr=True)
-kc.login(token='EqCp6JikRiMMIjLoBl9a.n/D2uYrEfNuqG6bbPgbp/G.cgBHRVWuyAEdpEEIWdAboAR+gAhV5DZOlVxbVxw8Wss=')
-kc.loginResult()
-print "Kc-Login Success\n"
-
-kr = LINETCR.LINE()
-#kr.login(qr=True)
-kr.login(token='EqiO6gGt2zZE8bLgVjje.BtgskIPTkqlnkVidqtaJpG.o38ovvh9K1LjddnjWdn+XfwnMKpqhBit+DTMUHa/12g=')
-kr.loginResult()
-print "Kr-Login Success\n"
-
-km = LINETCR.LINE()
-#km.login(qr=True)
-km.login(token='EqExgjPtC7TmzRO6Igb0.9T/PGPFdadrWbCl3Gzx/Ga.bewTJcW222ZleLUZXFT9pVFXt6WRqGReoR6YiHju2Kg=')
-km.loginResult()
-print "Km-Login Success\n\n=====[Sukses All Login]====="
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -309,12 +292,9 @@ KAC=[cl,ki,kk,kc,kr]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
-Cmid = kc.getProfile().mid
-Dmid = kr.getProfile().mid
-Emid = km.getProfile().mid
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid]
-Creator=["u61a9b5ce8de3eb51a859410c9834e5c8"]
-admin=["u61a9b5ce8de3eb51a859410c9834e5c8","ud0d51fb3eb92c96cad73a3ade66e94d1","u37e77653245e16751083a041a4604ffa","uce7ba2e97fff025c2f7f79192ef5d7f0","uf6dfa98297c300347005c2f78195fe80","u9f09cfcb17d037e2936b751bd9d40ead"]
+Bots=[mid,Amid,Bmid]
+Creator=["u8a4ba756d4fd444081b75a6ab421248e"]
+admin=["u8a4ba756d4fd444081b75a6ab421248e"]
 
 contact = cl.getProfile()
 backup1 = cl.getProfile()
@@ -334,23 +314,9 @@ backup3.displayName = contact.displayName
 backup3.statusMessage = contact.statusMessage                        
 backup3.pictureStatus = contact.pictureStatus
 
-contact = kc.getProfile()
-backup4 = kc.getProfile()
-backup4.displayName = contact.displayName
-backup4.statusMessage = contact.statusMessage                        
-backup4.pictureStatus = contact.pictureStatus
-
-contact = kr.getProfile()
-backup5 = kr.getProfile()
-backup5.displayName = contact.displayName
-backup5.statusMessage = contact.statusMessage                        
-backup5.pictureStatus = contact.pictureStatus
-
 responsename = cl.getProfile().displayName
 responsename2 = ki.getProfile().displayName
 responsename3 = kk.getProfile().displayName
-responsename4 = kc.getProfile().displayName
-responsename5 = kr.getProfile().displayName
 
 
 wait = {
@@ -656,8 +622,6 @@ def bot(op):
                             Name = cl.getContact(op.param2).displayName
                             Name = ki.getContact(op.param2).displayName
                             Name = kk.getContact(op.param2).displayName
-                            Name = kc.getContact(op.param2).displayName
-                            Name = kr.getContact(op.param2).displayName
                             if Name in cctv['sidermem'][op.param1]:
                                 pass
                             else:
